@@ -1,0 +1,41 @@
+body {
+    background: #cdcdcd;
+}
+
+.show {
+    background: rgb(239, 239, 239);
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding-left: 6px;
+    letter-spacing: 2px;
+}
+
+#shift {
+    cursor: pointer;
+}
+
+button {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+    background: rgb(224, 223, 223);
+    border-radius: 5px;
+
+}
+
+#back {
+    width: 100px;
+}
+
+.br1 {
+    margin-top: 20px;
+}
+
+.space {
+    width: 590px;
+}

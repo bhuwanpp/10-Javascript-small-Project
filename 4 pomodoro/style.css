@@ -1,0 +1,42 @@
+body{
+    background-color:#c79b9b;
+}
+
+main{
+    padding: 20px;
+}
+h4{
+    font-size: 20px;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.time{
+    padding-left: 50px;
+    font-size: 50px;
+    display: flex;
+}
+#pomodoro , #short ,#long{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 3px;
+    background: #d9d8d8;
+}
+#pomodoro:hover,#short:hover,#long:hover{
+    background: rgb(173, 173, 238);
+}
+
+.time{
+    background: #e5e2e2;
+    width: 200px;
+}
+
+#start{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}

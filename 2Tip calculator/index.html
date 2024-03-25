@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="left">
+        <div class="bill">
+          <p>Bill</p>
+          <input type="text" id="billAmount" />
+        </div>
+        <div class="tip">
+          <p>Tip %</p>
+          <button id="subTip">-</button>
+          <input type="text" id="tip" />
+          <!-- <p id="tip">(0)</p> -->
+          <button id="addTip">+</button>
+        </div>
+        <div class="people">
+          <p>Number of people</p>
+          <button id="subPeople">-</button>
+          <input type="text" id="people" />
+          <button id="addPeople">+</button>
+        </div>
+      </div>
+      <!-- right  -->
+      <div class="right">
+        <div class="Tipright">
+          <div class="first">
+            <p>
+              Tip
+              <br />
+              <span>per person</span>
+            </p>
+
+            <p id="allTip">$0</p>
+          </div>
+          <div class="second">
+            <p>
+              Total
+              <br />
+              <span>per person</span>
+            </p>
+            <p id="allTotal">$0</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="find">
+      <button id="find">find</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

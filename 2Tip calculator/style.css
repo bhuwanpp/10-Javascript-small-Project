@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    gap: 100px;
+    padding: 20px;
+    font-size: 20px;
+}
+.first,.second{
+    display: flex;
+    gap: 60px;
+}
+.right{
+    padding-top: 20px;
+    font-size: 25px;
+    border:black solid 1px ;
+    padding: 10px;
+    height: 200px;
+}
+input{
+    outline: none;
+    width: 200px;
+    height: 30px;
+    border-radius:5px;
+}
+.find{
+   padding-left: 100px;
+}
+.find button {
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+span{
+    font-size: 16px;
+}
